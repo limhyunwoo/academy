@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css");
+#wrap{     /*   .이 클래스를 의미하듯이 #은 id를 뜻한다.  */
+	width: 99%;
+	text-align: left;  /* 글자정렬 : 왼쪽 */
+	margin: 0;
+	margin-right: auto; /* 환경에 맞게 자동 설정 */
+	margin-left:  auto;
+	/* background-image: url("../../images/Penguins.jpg"); */
+	background-repeat: repeat-y;  
+	/* 만약 배경 이미지가 작으면 이미지 반복으로 채우겠다. */
+	min-height: 750px;
+	/* 모니터에 따라 신축성있게 헤더가 축소되지만
+	    최소한 750px은 유지하고 그 이하가 되면 이미지가 잘리도록 한다. */
+}
+article{
+	width: 100%;
+	min-height: 50%;
+	position: relative;
+	z-index: 10;
+	margin: -50px 0;  /*위아래는 -50*/
+	background-color: #FF6;
+}
+.content{
+	padding-top: 50px;
+}  

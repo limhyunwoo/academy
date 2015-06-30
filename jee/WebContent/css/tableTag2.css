@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+body{
+	font-family: "돋음" ;
+	font-size: 0.75em ;
+	color: #333 ;
+}
+table{
+	border-collapse: collapse ;
+	border-top: 2px solid #333 ;
+	border-bottom: 1px solid #333;
+	width: 100% ;
+}
+table th, td{
+	margin: 0;
+	padding: 8px;
+}
+table th{
+	background-color: #999;
+	color: #e4e4e4 ;
+	border-bottom-width: 2px; /*하단 테두리 두께*/
+	border-bottom-style: solid; /* 하단부 스타일은 실선 표시 */
+	border-bottom-color: #000;
+	font-size: 1.1em;
+}
+table td{
+	border-bottom-width: 1px; /*하단 테두리 두께*/
+	border-bottom-style: dotted; /* 하단부 스타일은 점선 표시 */
+	border-bottom-color: #666;
+}

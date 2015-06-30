@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css");
+
+/* 좌측에 콘텐츠가 있는 프레임 */
+article{
+	width: 70%;
+	min-height: 50%;
+	position: relative;
+	z-index: 10;
+	margin: -50px 0;     /* magin은 앞(위,아래), 뒤(좌우) */
+	background-color : #FF6;
+	float: left
+}
+.leftContent{
+	padding-top: 50px;  /* 부모 태그인 위 article을 -50px 를 주어서 그걸 상쇄시키기 위해 사용*/
+									    /* 패딩은 순서대로 북,동,남,서 로 값이 입력된다. */
+}
+.rightSide{
+	padding-top: 50px;
+}
+
+/* 우측 사이드 */
+aside{
+	width: 30%;
+	min-height: 50%;
+	position: relative;
+	z-index: 10;
+	margin: -50px 0;    
+	background-color: RED;
+	float: right   /*  float 는 떠있다는 뜻으로 우측정렬을 시키라는 뜻 */
+
+}
